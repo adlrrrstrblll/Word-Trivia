@@ -1,0 +1,146 @@
+Object: Camera
+Kind of: Gadget
+Use: Taking Photos, Recording Videos
+Make: Digital, DSLR, Mirrorless
+Color: Black, Silver
+Brand: Canon, Nikon, Sony
+
+Object: Pillow
+Kind of: Home Essential
+Use: Sleeping, Comfort
+Shape: Square, Rectangle
+Color: White, Blue, Floral
+Material: Cotton, Polyester
+
+Object: Refrigerator
+Kind of: Appliance
+Use: Food Storage
+Type: Single Door, Double Door
+Color: Silver, Black, White
+Power Source: Electricity
+
+Object: Speaker
+Kind of: Gadget
+Use: Playing Sound
+Connection: Wired, Bluetooth
+Color: Black, Gray
+Power Source: Battery, Plug-in
+
+Object: Chair Mat
+Kind of: Office Supply
+Use: Floor Protection
+Material: Plastic, Rubber
+Color: Transparent, Black
+Shape: Rectangular, Circular
+
+Object: Calculator
+Kind of: Gadget
+Use: Computing Numbers
+Type: Scientific, Basic
+Power Source: Battery, Solar
+Color: Black, Gray, White
+
+Object: Flashlight
+Kind of: Tool
+Use: Lighting
+Power Source: Battery
+Make: LED
+Color: Black, Yellow, Red
+
+Object: Blanket
+Kind of: Bedding
+Use: Warmth
+Material: Fleece, Cotton, Wool
+Size: Single, Double, Queen
+Color: Gray, Blue, Red
+
+Object: Scissors
+Kind of: Tool
+Use: Cutting
+Make: Stainless Steel, Plastic Handle
+Color: Red, Blue, Black
+Type: Office, Craft
+
+Object: Sunglasses
+Kind of: Accessory
+Use: Eye Protection
+Color: Black, Brown, Gray
+Lens: Polarized, UV-Protected
+Style: Aviator, Wayfarer
+
+Object: Charger
+Size: Long
+Has: Wire, Electricity, Phone Revive
+Size: Long, Skinny
+
+Object: Stapler
+Kind of: Office Supply
+Use: Binding Paper
+Color: Black, Blue, Red
+Make: Metal, Plastic
+Size: Standard, Mini
+
+Object: Globe
+Kind of: Educational Tool
+Use: Learning Geography
+Material: Plastic, Metal Base
+Color: Blue, Multicolor
+Size: Small, Medium, Large
+
+Object: Washing Machine
+Kind of: Appliance
+Use: Cleaning Clothes
+Type: Top Load, Front Load
+Power Source: Electricity
+Color: White, Silver
+
+Object: Eraser
+Kind of: Stationery
+Use: Removing Pencil Marks
+Color: White, Pink
+Shape: Block, Oval
+Material: Rubber, Plastic
+
+Object: Whiteboard
+Kind of: Educational Tool
+Use: Writing, Presenting
+Color: White
+Make: Magnetic, Non-Magnetic
+Size: Small, Medium, Large
+
+Object: Tripod
+Kind of: Photography Accessory
+Use: Stabilizing Camera
+Material: Aluminum, Carbon Fiber
+Height: Adjustable
+Color: Black, Silver
+
+Object: Thermos
+Kind of: Container
+Use: Keeping Liquids Hot or Cold
+Make: Stainless Steel, Plastic
+Size: 500ml, 1L
+Color: Blue, Red, Silver
+
+Object: Ruler
+Kind of: Stationery
+Use: Measuring
+Length: 6 inch, 12 inch, 30 cm
+Material: Plastic, Wood, Metal
+Color: Transparent, Yellow
+
+Object: Paintbrush
+Kind of: Art Supply
+Use: Painting
+Size: Small, Medium, Large
+Bristles: Synthetic, Natural
+Handle: Wooden, Plastic
+
+Object: Power Bank
+Kind of: Gadget
+Use: Charging Devices
+Capacity: 5000mAh, 10000mAh, 20000mAh
+Color: Black, White, Red
+Make: Lithium-Ion
+
+
