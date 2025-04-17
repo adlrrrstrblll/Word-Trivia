@@ -54,7 +54,7 @@ Brand: Canon, Nikon
 - Any Java IDE (NetBeans, IntelliJ, VS Code) or a terminal with GUI support
 
 ### ▶️ Compile and Run
-
+```bash
 javac MainMenu.java 
 java MainMenu
 
