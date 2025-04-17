@@ -392,3 +392,17 @@ Type: Quadcopter
 Power Source: Battery
 Features: GPS, Camera, Remote Control
 Color: Black, White
+
+Object: Sewing Machine
+Kind of: Appliance
+Use: Stitching Fabric
+Power Source: Electricity
+Type: Mechanical, Electronic
+Color: White, Blue
+
+Object: Umbrella
+Kind of: Accessory
+Use: Protection from Rain/Sun
+Type: Foldable, Straight
+Material: Polyester, Nylon
+Color: Black, Red, Patterned
