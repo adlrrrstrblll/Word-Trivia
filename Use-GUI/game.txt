@@ -281,3 +281,114 @@ Use: Storing Water
 Material: Stainless Steel, Plastic
 Color: Blue, Green, Pink
 Capacity: 500ml, 750ml, 1L
+
+Object: Smartphone
+Kind of: Gadget
+Use: Communication, Internet, Photography
+Operating System: Android, iOS
+Brand: Samsung, Apple, Xiaomi
+Color: Black, Silver, Blue
+Features: Touchscreen, Face ID, Dual SIM, 5G
+
+Object: Nail Cutter
+Kind of: Personal Care Tool
+Use: Trimming Nails
+Material: Stainless Steel
+Size: Standard, Mini
+Color: Silver
+
+Object: Alarm Clock
+Kind of: Home Gadget
+Use: Waking Up
+Type: Analog, Digital
+Power Source: Battery, Electricity
+Features: Snooze, Radio, LED Display
+Color: Black, White, Red
+
+Object: Curtain
+Kind of: Home Decor
+Use: Blocking Light, Privacy
+Material: Cotton, Polyester, Velvet
+Color: Blue, Beige, Patterned
+Length: Short, Long
+
+Object: Pen
+Kind of: Stationery
+Use: Writing
+Type: Ballpoint, Gel, Fountain
+Color: Blue, Black, Red
+Material: Plastic, Metal
+
+Object: Fan
+Kind of: Appliance
+Use: Air Circulation
+Type: Stand Fan, Desk Fan, Ceiling Fan
+Power Source: Electricity
+Speed: Adjustable
+Color: White, Black
+
+Object: Game Console
+Kind: Entertainment
+Use: Playing Games
+Brand: Sony PlayStation, Microsoft Xbox, Nintendo Switch
+Connection: Wired, Wireless
+Storage: 500GB, 1TB
+Color: Black, White
+
+Object: Mirror
+Kind: Home Essential
+Use: Reflection
+Type: Wall, Standing, Compact
+Shape: Round, Rectangle
+Frame: Wooden, Metal, Frameless
+
+Object: Keychain
+Kind: Accessory
+Use: Holding Keys
+Material: Metal, Rubber, Leather
+Features: Bottle Opener, Flashlight
+Design: Cartoon, Minimalist, Logo
+
+Object: Electric Kettle
+Kind: Kitchen Appliance
+Use: Boiling Water
+Power Source: Electricity
+Capacity: 1L, 1.5L, 2L
+Material: Stainless Steel, Plastic
+Color: Silver, White, Black
+
+Object: Crayon
+Kind: Art Supply
+Use: Coloring
+Material: Wax
+Color: Red, Blue, Yellow, Green (Multicolor)
+Pack Size: 8, 16, 24, 64
+
+Object: Measuring Tape
+Kind: Tool
+Use: Measuring
+Length: 3m, 5m, 10m
+Material: Metal Tape, Plastic Casing
+Features: Lock Mechanism, Retractable
+
+Object: Wallet
+Kind: Accessory
+Use: Holding Money and Cards
+Material: Leather, Fabric
+Color: Black, Brown, Blue
+Type: Bifold, Trifold, Slim
+
+Object: Highlighter
+Kind: Stationery
+Use: Marking Text
+Color: Yellow, Pink, Green, Orange
+Tip: Chisel, Bullet
+Ink Type: Fluorescent
+
+Object: Drone
+Kind: Gadget
+Use: Aerial Photography, Surveillance
+Type: Quadcopter
+Power Source: Battery
+Features: GPS, Camera, Remote Control
+Color: Black, White
