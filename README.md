@@ -4,7 +4,7 @@
 
 **Word Trivia** is a fun educational game where players answer trivia questions based on a board of randomly arranged letters. Each letter corresponds to a word, and players must guess the word using a provided clue. The game challenges players to guess at least one correct word per row to proceed. A full incorrect row ends the game.
 
-This game was developed as a **Machine Project** for **CCPROG2** at **De La Salle University**.
+This game was developed as an **Updated Machine Project** for **CCPROG2** at **De La Salle University**, where we implemented the project in **Java** instead of the usual **C programming language**.
 
 ---
 
