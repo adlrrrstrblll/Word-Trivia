@@ -57,8 +57,9 @@ Brand: Canon, Nikon
 ```bash
 javac MainMenu.java 
 java MainMenu
-
-This is to certify that this project is my own work, based on my personal efforts in studying and applying the concepts learned. I have constructed the functions and their respective algorithms and corresponding code by myself. The program was run, tested, and debugged by my own efforts. I further certify that I have not copied in part or whole or otherwise plagiarized the work of other students and/or persons.
+```
+### 👷 Compile and Run
+This is to certify that this project is our own work, based on our personal efforts in studying and applying the concepts learned. We have constructed the functions, algorithms, and corresponding code by ourselves. The program was run, tested, and debugged through our own efforts. We further certify that we have not copied in part or whole or otherwise plagiarized the work of other students and/or persons.
 
 Strebel, Adler Clarence E. - DLSU ID# 12308714
 Pinca, Evan Andrew J. - DLSU ID# <ID NUM>
