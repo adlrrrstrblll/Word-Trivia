@@ -119,8 +119,7 @@ Object: Thermos
 Kind of: Container
 Use: Keeping Liquids Hot or Cold
 Make: Stainless Steel, Plastic
-Size: 500ml, 1L
-Color: Blue, Red, Silver
+Has: Water, Juice, Ice, Hot
 
 Object: Ruler
 Kind of: Stationery
@@ -142,5 +141,4 @@ Use: Charging Devices
 Capacity: 5000mAh, 10000mAh, 20000mAh
 Color: Black, White, Red
 Make: Lithium-Ion
-
 

@@ -123,6 +123,7 @@ public class admin {
         System.out.println("Word added successfully.");
     }
     
+    // This ERROR function deletes a word from the list
     public void deleteWord(){
         if(wordCount == 0){
             System.out.println("No words to delete.");
@@ -286,56 +287,77 @@ public class admin {
     // This is not working, it is not deleting the clue
     public void deleteClue() {
         System.out.print("Enter word: ");
-        String word = sc.nextLine();
+        String word = sc.nextLine().trim();
+        int index = findWord(word);
+    
+        if (index == -1) {
+            System.out.println("Word not found.");
+            return;
+        }
+    
+        if (triviaCount[index] == 0) {
+            System.out.println("No clues to delete.");
+            return;
+        }
+    
+        System.out.println("Clues for: " + words[index]);
+        for (int i = 0; i < triviaCount[index]; i++) {
+            System.out.println((i + 1) + ". " + triviaRel[index][i] + ": " + triviaVal[index][i]);
+        }
+    
+        System.out.print("Enter clue number to delete: ");
+        int clueNum;
+        try {
+            clueNum = Integer.parseInt(sc.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input.");
+            return;
+        }
+    
+        if (clueNum < 1 || clueNum > triviaCount[index]) {
+            System.out.println("Invalid clue number.");
+            return;
+        }
+    
+        int i = clueNum - 1;
+        for (; i < triviaCount[index] - 1; i++) {
+            triviaRel[index][i] = triviaRel[index][i + 1];
+            triviaVal[index][i] = triviaVal[index][i + 1];
+        }
+    
+        // Clear last item
+        triviaRel[index][triviaCount[index] - 1] = null;
+        triviaVal[index][triviaCount[index] - 1] = null;
+        triviaCount[index]--;
+    
+        System.out.println("Clue deleted.");
+    }
+    
+    public void viewClues() {
+        System.out.print("Enter word to view clues: ");
+        String word = sc.nextLine().trim();
+    
         int index = findWord(word);
         if (index == -1) {
             System.out.println("Word not found.");
             return;
         }
     
-        int i;
-        for (i = 0; i < triviaCount[index]; i++) {
-            System.out.println((i+1) + ". " + triviaRel[index][i] + ": " + triviaVal[index][i]);
-        }
-
-        System.out.print("Enter clue number to delete: ");
-        int clueNum = Integer.parseInt(sc.nextLine());
-
-        if (clueNum < 1 || clueNum > triviaCount[index]) {
-            System.out.println("Invalid clue number.");
-            return;
-        }
-
-        for (i = clueNum - 1; i < triviaCount[index] - 1; i++) {
-            triviaRel[index][i] = triviaRel[index][i + 1];
-            triviaVal[index][i] = triviaVal[index][i + 1];
-        }
-
-        triviaCount[index]--;
-        System.out.println("Clue deleted.");
-    }
-
-    // This is not working, it is not viewing the clues correctly
-    public void viewClues() {
-        System.out.print("Enter word to view clues: ");
-        String word = sc.nextLine().trim();
-
-        int index = findWord(word);
-        if (index == -1) {
-            System.out.println("Tite.");
-            return;
-        }
-
         if (triviaCount[index] == 0) {
-            System.out.println("No Clues.");
+            System.out.println("No clues.");
             return;
         }
-
-        System.out.println("Trivia for: " + words[index] + "TItEEE");
+    
+        System.out.println("Trivia for: " + words[index]);
         for (int i = 0; i < triviaCount[index]; i++) {
-            System.out.println((i+1) + ". " + triviaRel[index][i] + ": " + triviaVal[index]);       
+            String relation = triviaRel[index][i];
+            String value = triviaVal[index][i];
+            if (relation != null && value != null) {
+                System.out.println(relation + ": " + value);
+            }
         }
     }
+       
 
     public void modifyEntry() {
         if (wordCount == 0){
@@ -578,7 +600,9 @@ public class admin {
                                 triviaRel[index][i] = tempRel[i];
                                 triviaVal[index][i] = tempVal[i];
                             }
+                            triviaCount[index] = clueCount; 
                         }
+                        
                     }
 
                     currentWord = null;

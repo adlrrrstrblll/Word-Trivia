@@ -1,0 +1,283 @@
+Object: Camera
+Kind of: Gadget
+Use: Taking Photos, Recording Videos
+Make: Digital, DSLR, Mirrorless
+Color: Black, Silver
+Brand: Canon, Nikon, Sony
+
+Object: Pillow
+Kind of: Home Essential
+Use: Sleeping, Comfort
+Shape: Square, Rectangle
+Color: White, Blue, Floral
+Material: Cotton, Polyester
+
+Object: Refrigerator
+Kind of: Appliance
+Use: Food Storage
+Type: Single Door, Double Door
+Color: Silver, Black, White
+Power Source: Electricity
+
+Object: Speaker
+Kind of: Gadget
+Use: Playing Sound
+Connection: Wired, Bluetooth
+Color: Black, Gray
+Power Source: Battery, Plug-in
+
+Object: Chair Mat
+Kind of: Office Supply
+Use: Floor Protection
+Material: Plastic, Rubber
+Color: Transparent, Black
+Shape: Rectangular, Circular
+
+Object: Calculator
+Kind of: Gadget
+Use: Computing Numbers
+Type: Scientific, Basic
+Power Source: Battery, Solar
+Color: Black, Gray, White
+
+Object: Flashlight
+Kind of: Tool
+Use: Lighting
+Power Source: Battery
+Make: LED
+Color: Black, Yellow, Red
+
+Object: Blanket
+Kind of: Bedding
+Use: Warmth
+Material: Fleece, Cotton, Wool
+Size: Single, Double, Queen
+Color: Gray, Blue, Red
+
+Object: Scissors
+Kind of: Tool
+Use: Cutting
+Make: Stainless Steel, Plastic Handle
+Color: Red, Blue, Black
+Type: Office, Craft
+
+Object: Sunglasses
+Kind of: Accessory
+Use: Eye Protection
+Color: Black, Brown, Gray
+Lens: Polarized, UV-Protected
+Style: Aviator, Wayfarer
+
+Object: Charger
+Size: Long
+Has: Wire, Electricity, Phone Revive
+Size: Long, Skinny
+
+Object: Stapler
+Kind of: Office Supply
+Use: Binding Paper
+Color: Black, Blue, Red
+Make: Metal, Plastic
+Size: Standard, Mini
+
+Object: Globe
+Kind of: Educational Tool
+Use: Learning Geography
+Material: Plastic, Metal Base
+Color: Blue, Multicolor
+Size: Small, Medium, Large
+
+Object: Washing Machine
+Kind of: Appliance
+Use: Cleaning Clothes
+Type: Top Load, Front Load
+Power Source: Electricity
+Color: White, Silver
+
+Object: Eraser
+Kind of: Stationery
+Use: Removing Pencil Marks
+Color: White, Pink
+Shape: Block, Oval
+Material: Rubber, Plastic
+
+Object: Whiteboard
+Kind of: Educational Tool
+Use: Writing, Presenting
+Color: White
+Make: Magnetic, Non-Magnetic
+Size: Small, Medium, Large
+
+Object: Tripod
+Kind of: Photography Accessory
+Use: Stabilizing Camera
+Material: Aluminum, Carbon Fiber
+Height: Adjustable
+Color: Black, Silver
+
+Object: Thermos
+Kind of: Container
+Use: Keeping Liquids Hot or Cold
+Make: Stainless Steel, Plastic
+Has: Water, Juice, Ice, Hot
+
+Object: Ruler
+Kind of: Stationery
+Use: Measuring
+Length: 6 inch, 12 inch, 30 cm
+Material: Plastic, Wood, Metal
+Color: Transparent, Yellow
+
+Object: Paintbrush
+Kind of: Art Supply
+Use: Painting
+Size: Small, Medium, Large
+Bristles: Synthetic, Natural
+Handle: Wooden, Plastic
+
+Object: Power Bank
+Kind of: Gadget
+Use: Charging Devices
+Capacity: 5000mAh, 10000mAh, 20000mAh
+Color: Black, White, Red
+Make: Lithium-Ion
+
+Object: Microwave
+Kind of: Appliance
+Use: Heating Food, Cooking
+Type: Countertop, Over-the-Range
+Power Source: Electricity
+Color: White, Black, Silver
+
+Object: Desk Lamp
+Kind of: Lighting
+Use: Providing Light for Desk Work
+Power Source: Electricity
+Color: Black, White, Silver
+Type: LED, Incandescent
+
+Object: Backpack
+Kind of: Accessory
+Use: Carrying Items
+Material: Nylon, Leather, Canvas
+Color: Black, Blue, Red
+Size: Small, Medium, Large
+
+Object: Blender
+Kind of: Kitchen Appliance
+Use: Blending, Mixing
+Type: Countertop, Handheld
+Power Source: Electricity
+Color: Black, White, Stainless Steel
+
+Object: Air Conditioner
+Kind of: Appliance
+Use: Cooling Room
+Type: Window, Split, Portable
+Power Source: Electricity
+Color: White, Black, Silver
+
+Object: Yoga Mat
+Kind of: Sports Equipment
+Use: Yoga, Exercise
+Material: Rubber, PVC
+Color: Purple, Blue, Green
+Size: Standard, Extra Long
+
+Object: Laptop
+Kind of: Gadget
+Use: Computing, Work, Entertainment
+Operating System: Windows, macOS, Linux
+Color: Black, Silver, Gray
+Brand: Apple, Dell, HP
+
+Object: Bicycle
+Kind of: Sports Equipment
+Use: Cycling, Exercise
+Material: Aluminum, Steel, Carbon Fiber
+Type: Road, Mountain, Hybrid
+Color: Red, Blue, Black
+
+Object: Thermometer
+Kind of: Health Tool
+Use: Measuring Temperature
+Type: Digital, Mercury
+Color: White, Silver
+Power Source: Battery
+
+Object: Hammer
+Kind of: Tool
+Use: Driving Nails, Construction
+Material: Steel, Wood
+Color: Black, Yellow, Silver
+Size: Standard, Mini
+
+Object: Coffee Maker
+Kind of: Appliance
+Use: Brewing Coffee
+Type: Drip, Espresso, Single Serve
+Power Source: Electricity
+Color: Black, White, Stainless Steel
+
+Object: Headphones
+Kind of: Gadget
+Use: Listening to Audio
+Connection: Wired, Wireless
+Color: Black, White, Blue
+Type: Over-Ear, In-Ear, Earbuds
+
+Object: Trolley
+Kind of: Storage
+Use: Carrying Items
+Material: Plastic, Metal
+Color: Black, Gray, Red
+Size: Small, Medium, Large
+
+Object: Vase
+Kind of: Home Decor
+Use: Holding Flowers
+Material: Glass, Ceramic, Plastic
+Color: Clear, Red, Blue
+Shape: Round, Square, Oval
+
+Object: Vacuum Cleaner
+Kind of: Appliance
+Use: Cleaning Floors
+Type: Upright, Handheld, Robot
+Power Source: Electricity
+Color: Black, Silver, Red
+
+Object: Wristwatch
+Kind of: Accessory
+Use: Timekeeping
+Type: Analog, Digital
+Color: Black, Brown, Silver
+Material: Leather, Stainless Steel
+
+Object: Pizza Cutter
+Kind of: Kitchen Tool
+Use: Cutting Pizza
+Material: Stainless Steel, Plastic
+Color: Silver, Black
+Type: Wheel, Rocker
+
+Object: Notepad
+Kind of: Stationery
+Use: Writing Notes
+Material: Paper
+Size: A4, A5, A6
+Color: White, Yellow
+
+Object: Toaster
+Kind of: Appliance
+Use: Toasting Bread
+Type: 2-Slice, 4-Slice
+Power Source: Electricity
+Color: White, Black, Silver
+
+Object: Water Bottle
+Kind of: Container
+Use: Storing Water
+Material: Stainless Steel, Plastic
+Color: Blue, Green, Pink
+Capacity: 500ml, 750ml, 1L
