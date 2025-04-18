@@ -24,6 +24,7 @@ public class GameFrame extends JFrame {
     private int currentRow = 0;
     private String currentWord;
     private int currentR, currentC;
+    private boolean awaitingAnswer = false;
 
     enum CellStatus {
         UNANSWERED,
@@ -245,12 +246,32 @@ public class GameFrame extends JFrame {
     }
 
     private void handleButtonClick(int row, int col, JButton button) {
+        // Prevent selecting another cell while awaiting an answer
+        if (awaitingAnswer) {
+            JOptionPane.showMessageDialog(this, "Please answer the current question before selecting another.", "Warning", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+    
         if (cellStatus[row][col] != CellStatus.UNANSWERED) {
             JOptionPane.showMessageDialog(this, "This letter has already been answered.", "Warning", JOptionPane.WARNING_MESSAGE);
             return;
         }
     
-        // Create a panel for user input
+        awaitingAnswer = true;
+    
+        if (awaitingAnswer) {
+            JOptionPane.showMessageDialog(this, "Please answer the current question before selecting another.", "Warning", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        
+        // Disable all other buttons except the current one
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                boardButtons[r][c].setEnabled(r == row && c == col);
+            }
+        }
+    
+        // Input panel for answer
         JPanel inputPanel = new JPanel();
         inputPanel.add(new JLabel("Your Answer:"));
     
@@ -281,7 +302,7 @@ public class GameFrame extends JFrame {
                 button.setBackground(Color.GREEN);
                 JOptionPane.showMessageDialog(this, "Correct!", "Success", JOptionPane.INFORMATION_MESSAGE);
     
-                // Optional: advance to next row if whole row answered
+                // Check if row is complete
                 boolean rowComplete = true;
                 for (int c = 0; c < cols; c++) {
                     if (cellStatus[row][c] == CellStatus.UNANSWERED) {
@@ -299,13 +320,22 @@ public class GameFrame extends JFrame {
                     } else {
                         statusLabel.setText("✅ Row complete! Move to the next row.");
                     }
-                    drawBoard();
                 }
             }
         }
+        
+        // Re-enable all unanswered buttons in the current row
+        for (int c = 0; c < cols; c++) {
+            if (cellStatus[row][c] == CellStatus.UNANSWERED) {
+                boardButtons[row][c].setEnabled(true);
+            } else {
+                boardButtons[row][c].setEnabled(false);
+            }
+        }
+    
+        awaitingAnswer = false;
     }
     
-
     private void drawBoard() {
         boardPanel.removeAll();
         boardPanel.setLayout(new GridLayout(rows, cols, 10, 10));
@@ -368,9 +398,10 @@ public class GameFrame extends JFrame {
         String answer = answerField.getText().trim();
     
         if (answer.equalsIgnoreCase(currentWord)) {
-            boardButtons[currentR][currentC].setBackground(new Color(144, 238, 144)); // Light green
             cellStatus[currentR][currentC] = CellStatus.CORRECT;
-    
+            boardButtons[currentR][currentC].setBackground(Color.GREEN);
+            boardButtons[currentR][currentC].setText("✅");
+            
             // Check if all buttons in current row are answered
             currentRow++;
             if (currentRow >= rows) {
@@ -382,9 +413,12 @@ public class GameFrame extends JFrame {
             }
         } else {
             statusLabel.setText("❌ Wrong answer. Try another letter.");
-            boardButtons[currentR][currentC].setBackground(new Color(255, 99, 71)); // Tomato red
             boardButtons[currentR][currentC].setEnabled(false); // prevent further clicks
             cellStatus[currentR][currentC] = CellStatus.WRONG;
+            boardButtons[currentR][currentC].setBackground(Color.RED);
+            boardButtons[currentR][currentC].setText("❌");
+            JOptionPane.showMessageDialog(this, "Incorrect! The correct word was: " + currentWord, "Error", JOptionPane.ERROR_MESSAGE);
+        
     
             // Check if all letters in current row are answered
             boolean anyLeft = false;

@@ -406,3 +406,116 @@ Use: Protection from Rain/Sun
 Type: Foldable, Straight
 Material: Polyester, Nylon
 Color: Black, Red, Patterned
+
+Object: Shoelaces
+Kind of: Footwear Accessory
+Use: Tying Shoes
+Material: Nylon, Cotton
+Length: 40–60 inches
+
+Object: Apron
+Kind of: Kitchen Apparel
+Use: Protecting Clothes
+
+Object: Dumbbell
+Kind of: Fitness Equipment
+Use: Weight Training
+Material: Cast Iron, Rubber
+Weight: 5lb, 10lb, 20lb
+Color: Black, Gray
+
+Object: Mouse Pad
+Kind of: Computer Accessory
+Use: Smooth Mouse Movement
+Material: Rubber, Cloth
+
+Object: Staple Wire
+Kind of: Office Supply
+Use: Binding Paper
+Size: Standard
+Color: Silver
+
+Object: Picture Frame
+Kind of: Home Decor
+Use: Displaying Photos
+Material: Wood, Plastic, Metal
+
+Object: Notebook
+Kind of: Stationery
+Use: Writing, Journaling
+Size: A4, B5
+Binding: Spiral, Sewn
+
+Object: Ice Tray
+Kind of: Kitchen Tool
+Use: Making Ice Cubes
+Material: Silicone, Plastic
+Capacity: 12–24 Cubes
+
+Object: Toothbrush
+Kind of: Personal Hygiene
+Use: Cleaning Teeth
+Type: Manual, Electric
+Bristles: Soft, Medium, Hard
+
+Object: Candle
+Kind of: Home Decor
+Use: Lighting, Fragrance
+Material: Wax, Soy
+Scent: Lavender, Vanilla, Citrus
+Color: White, Pink, Blue
+
+Object: Pencil Case
+Kind of: School Supply
+Use: Holding Writing Tools
+Material: Fabric, Plastic
+
+Object: Ice Pack
+Kind of: Medical Aid
+Use: Reducing Swelling
+Type: Reusable, Disposable
+
+Object: Glue Stick
+Kind of: Stationery
+Use: Sticking Paper
+Material: Adhesive Polymer
+
+Object: Trash Bin
+Kind of: Home Utility
+Use: Waste Disposal
+Material: Plastic, Metal
+Capacity: 10L, 20L
+Color: Black, Blue, White
+
+Object: Bookmark
+Kind of: Reading Accessory
+Use: Marking Pages
+
+Object: Hand Sanitizer
+Kind of: Personal Hygiene
+Use: Cleaning Hands
+Base: Alcohol, Gel
+Size: Pocket, Large Bottle
+
+Object: Remote Control
+Kind of: Electronic Accessory
+Use: Controlling Devices
+Power Source: Battery
+
+Object: Extension Cord
+Kind of: Electrical Accessory
+Use: Extending Power Reach
+Length: 3m, 5m, 10m
+Sockets: 3, 5, 6
+Color: White, Black
+
+Object: Dish Rack
+Kind of: Kitchen Accessory
+Use: Drying Dishes
+Material: Stainless Steel, Plastic
+Capacity: 10–20 plates
+
+Object: Clipboard
+Kind of: Office Supply
+Use: Holding Paper
+Material: Plastic, Wood

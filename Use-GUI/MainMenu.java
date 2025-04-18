@@ -9,6 +9,7 @@ public class MainMenu extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridBagLayout());
+        setResizable(true); // Allow window resizing
 
         // Set background color
         getContentPane().setBackground(new Color(245, 245, 255)); // soft light blue
@@ -62,6 +63,11 @@ public class MainMenu extends JFrame {
         });
 
         exitButton.addActionListener(e -> System.exit(0));
+
+        // Hover effect for buttons (Optional)
+        addHoverEffect(gameButton);
+        addHoverEffect(adminButton);
+        addHoverEffect(exitButton);
     }
 
     private JButton createStyledButton(String text) {
@@ -75,6 +81,18 @@ public class MainMenu extends JFrame {
         button.setOpaque(true);
         button.setContentAreaFilled(true);
         return button;
+    }
+
+    // Optional hover effect for buttons
+    private void addHoverEffect(JButton button) {
+        button.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                button.setBackground(new Color(41, 128, 185)); // Darker blue
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                button.setBackground(new Color(52, 152, 219)); // Original blue
+            }
+        });
     }
 
     public static void main(String[] args) {
