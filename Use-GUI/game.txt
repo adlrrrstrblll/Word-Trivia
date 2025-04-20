@@ -170,7 +170,7 @@ Type: Countertop, Handheld
 Power Source: Electricity
 Color: Black, White, Stainless Steel
 
-Object: Air Conditioner
+Object: Aircon
 Kind of: Appliance
 Use: Cooling Room
 Type: Window, Split, Portable
@@ -515,7 +515,4 @@ Use: Drying Dishes
 Material: Stainless Steel, Plastic
 Capacity: 10–20 plates
 
-Object: Clipboard
-Kind of: Office Supply
-Use: Holding Paper
-Material: Plastic, Wood
+

@@ -4,7 +4,18 @@
 
 **Word Trivia** is a fun educational game where players answer trivia questions based on a board of randomly arranged letters. Each letter corresponds to a word, and players must guess the word using a provided clue. The game challenges players to guess at least one correct word per row to proceed. A full incorrect row ends the game.
 
-This game was developed as an **Updated Machine Project** for **CCPROG2** at **De La Salle University**, where we implemented the project in **Java** instead of the usual **C programming language**.
+This game was developed as an **Updated Machine Project** for **CCPROG2** at **De La Salle University**, where we implemented the project in **Java** instead of the usual **C programming language**. The project features a modern, responsive graphical user interface with sleek animations and visual effects.
+
+---
+
+## 🎨 UI Features
+
+- **Modern Dark Theme** - Elegant dark mode interface with custom colors
+- **Animated Elements** - Smooth transitions and hover effects
+- **Custom Fonts** - Using Roboto font for improved readability
+- **Responsive Design** - UI elements scale with window size
+- **Visual Feedback** - Color-coded responses for game interactions
+- **Gradient Backgrounds** - Subtle gradients with optional background image support
 
 ---
 
@@ -12,22 +23,27 @@ This game was developed as an **Updated Machine Project** for **CCPROG2** at **D
 
 ### 🎮 Game Phase
 - Choose your board size (min: 3x3, max: 10x10).
-- A tile board appears with each tile representing the **first letter** of a word.
-- A clue appears when a tile is clicked.
-- Input your guess — correct answers turn ✅ green, incorrect answers turn ❌ red.
+- A beautifully designed tile board with rounded letter tiles.
+- Each tile represents the **first letter** of a word with smooth hover effects.
+- Interactive clue system - click the same tile again for additional clues.
+- Stylish input area for answers with instant visual feedback.
+- Color-coded results: ✅ green for correct answers, ❌ red for incorrect ones.
 - At least **one correct word per row** is required to move to the next row.
-- A full incorrect row results in game over.
-- The game ends in a **win** if all rows are completed correctly.
-- You can play again or return to the main menu at any time.
+- A full incorrect row results in game over with animated notification.
+- The game ends in a **win** with a celebration animation when all rows are completed correctly.
+- Modern navigation buttons to play again or return to the main menu.
 
 ### 🛠️ Admin Phase
+- Sleek admin control panel with intuitive navigation.
+- Custom styled dialogs for all interactions.
 - Add a new word with up to **10 trivia clues** (`Relation: Value` format).
-- Add additional clues to an existing word.
-- Edit words or specific clues.
-- Delete a word or an individual clue.
-- View the entire trivia database (with `Next`, `Previous`, `Exit` navigation).
-- Export trivia data to a `.txt` file.
+- Add additional clues to an existing word with real-time feedback.
+- Edit words or specific clues with user-friendly interfaces.
+- Delete a word or an individual clue with confirmation dialogs.
+- View the entire trivia database with syntax highlighting.
+- Export trivia data to a `.txt` file with progress indicators.
 - Import trivia data from a `.txt` file (with overwrite confirmation).
+- Comprehensive error handling with descriptive messages.
 
 ---
 
@@ -52,13 +68,24 @@ Brand: Canon, Nikon
 ### ✅ Requirements:
 - Java 11 or higher
 - Any Java IDE (NetBeans, IntelliJ, VS Code) or a terminal with GUI support
+- Optional: Background image for enhanced UI experience
 
 ### ▶️ Compile and Run
 ```bash
+javac -Xlint:deprecation MainMenu.java
 javac MainMenu.java 
 java MainMenu
 ```
-### 👷 Compile and Run
+
+---
+
+## 📷 Screenshots
+
+*(Placeholder for screenshots of the game and admin panel UI)*
+
+---
+
+### 👷 Certification
 This is to certify that this project is our own work, based on our personal efforts in studying and applying the concepts learned. We have constructed the functions, algorithms, and corresponding code by ourselves. The program was run, tested, and debugged through our own efforts. We further certify that we have not copied in part or whole or otherwise plagiarized the work of other students and/or persons.
 
 - Strebel, Adler Clarence E. - DLSU ID# 12308714
