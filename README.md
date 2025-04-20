@@ -81,7 +81,9 @@ java MainMenu
 
 ## 📷 Screenshots
 
-*(Placeholder for screenshots of the game and admin panel UI)*
+![image](https://github.com/user-attachments/assets/83731f3d-4132-4722-9cdf-322046acb690)
+![image](https://github.com/user-attachments/assets/8a0a80aa-b667-4315-b278-2d68cf2d29b4)
+![image](https://github.com/user-attachments/assets/a9a3a337-a6e5-4421-a087-ed4f2543a84b)
 
 ---
 
